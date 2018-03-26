@@ -124,4 +124,5 @@ done
 
 echo "All done making bigWigs!"
 fi
+
 }
