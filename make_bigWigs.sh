@@ -120,9 +120,8 @@ echo "${bold}I have finished making bigWigs for ${bold}${counter}/${fileTotal}${
 date
 echo "\n----------------------------------------------------"
 echo
-
 done
+
 echo "All done making bigWigs!"
 fi
-
 }
