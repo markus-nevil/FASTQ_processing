@@ -1,10 +1,10 @@
 #!/bin/sh
 
+sam_filter () {
+
 #making bold and normal text
 bold=$(tput bold)
 normal=$(tput sgr0)
-
-sam_filter () {
 
 #Just some start-up text for future reference
 echo
