@@ -1,5 +1,7 @@
 #! /bin/sh
 
+##make_bigWigs function can take a single parameter ("RNA") and will take data found in the /aligned_reads directory and either make exon-split/-joined bedgraphs and bigWigs (if $1 = "RNA") or make unsplit bedGraphs and bigWigs (if $1 = ""). All files will be exported to a new directory: /bigWigs, which will also overwrite any existing /bigWigs directory.
+
 make_bigWigs () {
 
 #making bold, normal text and also starting a file counter
